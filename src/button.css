@@ -1,0 +1,66 @@
+.button {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 6px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  .login {
+    background-color: black; 
+    color: white; 
+    border: 1px solid black;
+  }
+  
+  .login:hover {
+    background-color: rgb(71, 64, 64);
+    color: white;
+  }
+  
+  .register {
+    background-color: white; 
+    color: black; 
+    border: 1px solid black;
+  }
+  
+  .register:hover {
+    background-color: rgb(71, 64, 64);
+    color: white;
+  }
+
+  .rightFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: darkgreen;*/
+} 
+
+a:link {
+  color: lightseagreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightseagreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightseagreen;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: lightseagreen;
+  background-color: transparent;
+  text-decoration: none;
+}

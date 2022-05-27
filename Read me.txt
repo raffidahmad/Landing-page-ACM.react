@@ -1,0 +1,32 @@
+Color Scheme Used:
+
+#000000
+#1C55C9
+#FAFAFA
+#FFFFFF
+
+Logos/Assets:
+See Folder Assets ...
+
+
+Font Family:
+{Place these imports in index.css}
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
+Usage: font-family: 'Archivo', sans-serif;
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+Usage: font-family: 'Chakra Petch', sans-serif;
+
+
+
+
+/////// Import Image in React  //////
+
+import logo from './Assets/logo.png';
+
+function A(){
+	return (<img src={logo} alt={"Logo of Website"}/>);
+}
+
+export default A;

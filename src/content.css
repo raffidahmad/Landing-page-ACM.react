@@ -1,0 +1,10 @@
+.contentComponent{
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+
+.content{
+    text-align: left;
+    margin-left: 10%;
+}

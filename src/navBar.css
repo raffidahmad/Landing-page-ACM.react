@@ -1,0 +1,36 @@
+#hp {
+    float: left;    
+    margin: 0 0 0 15px;
+}
+
+.outerFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: red; */
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.innerFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*background-color: DodgerBlue;*/
+   
+}
+
+.navList {
+    /*background-color: pink;*/
+    list-style: none;
+    display: flex;
+    gap:1em;
+}
+
+.leftFlex {
+    display: flex;
+    flex-direction: row;
+   /* background-color: darkgreen;*/
+    justify-content: center;
+}
