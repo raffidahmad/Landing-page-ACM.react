@@ -1,0 +1,16 @@
+
+.navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+li a{
+    display: block;
+    padding: 15px;
+}
+  
+li {
+    float: left;
+}
